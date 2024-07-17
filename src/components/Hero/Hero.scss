@@ -1,0 +1,151 @@
+.hero {
+  position: relative;
+  background: url("../../assets/header/BG.png") no-repeat center/cover;
+  height: 800px;
+  padding: 100px;
+  color: #fff;
+
+  h1 {
+    font-size: 70px;
+    max-width: 570px;
+    padding-bottom: 50px;
+  }
+
+  p {
+    font-size: 21px;
+    max-width: 460px;
+    padding-bottom: 20px;
+  }
+
+  img {
+    padding-bottom: 20px;
+  }
+
+  &__input {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 50%;
+    background: #fff;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+
+    &__item {
+      width: 40%;
+      padding: 0 10px;
+      display: flex;
+      align-items: center;
+      gap: 5px;
+
+      select,
+      input {
+        border: 1px solid transparent;
+        outline: none;
+        background: transparent;
+        padding: 20px;
+      }
+    }
+
+    button {
+      width: 20%;
+      height: 100%;
+      background: #22b0fc;
+      color: #fff;
+      border: 1px solid transparent;
+      padding: 20px;
+    }
+  }
+
+  @media (max-width: 1200px) {
+    &__input {
+      width: 70%;
+    }
+  }
+
+  @media (max-width: 850px) {
+    &__input {
+      width: 90%;
+    }
+  }
+
+  @media (max-width: 800px) {
+    h1 {
+      font-size: 50px;
+    }
+
+    p {
+      max-width: 350px;
+    }
+  }
+
+  @media (max-width: 600px) {
+    h1 {
+      font-size: 40px;
+    }
+
+    p {
+      max-width: 350px;
+    }
+
+    height: 700px;
+  }
+
+  @media (max-width: 500px) {
+    padding: 70px;
+    h1 {
+      font-size: 30px;
+    }
+
+    p {
+      font-size: 16px;
+    }
+
+    height: 600px;
+
+    &__input {
+      display: none;
+    }
+  }
+
+  @media (max-width: 450px) {
+    padding: 50px;
+    h1 {
+      font-size: 28px;
+      max-width: 1000px;
+    }
+
+    p {
+      font-size: 16px;
+    }
+
+    height: 500px;
+  }
+
+  @media (max-width: 350px) {
+    padding: 30px;
+    h1 {
+      font-size: 28px;
+    }
+
+    p {
+      font-size: 16px;
+    }
+
+    height: 400px;
+  }
+
+  @media (max-width: 300px) {
+    padding: 20px;
+    h1 {
+      font-size: 24px;
+    }
+
+    p {
+      font-size: 16px;
+    }
+
+    height: 400px;
+  }
+}

@@ -1,0 +1,135 @@
+.hero {
+  position: relative;
+  background: url("../../assets/header/BG.png") no-repeat center/cover;
+  height: 800px;
+  padding: 100px;
+  color: #fff;
+}
+.hero h1 {
+  font-size: 70px;
+  max-width: 570px;
+  padding-bottom: 50px;
+}
+.hero p {
+  font-size: 21px;
+  max-width: 460px;
+  padding-bottom: 20px;
+}
+.hero img {
+  padding-bottom: 20px;
+}
+.hero__input {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 50%;
+  background: #fff;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.hero__input__item {
+  width: 40%;
+  padding: 0 10px;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+.hero__input__item select,
+.hero__input__item input {
+  border: 1px solid transparent;
+  outline: none;
+  background: transparent;
+  padding: 20px;
+}
+.hero__input button {
+  width: 20%;
+  height: 100%;
+  background: #22b0fc;
+  color: #fff;
+  border: 1px solid transparent;
+  padding: 20px;
+}
+@media (max-width: 1200px) {
+  .hero__input {
+    width: 70%;
+  }
+}
+@media (max-width: 850px) {
+  .hero__input {
+    width: 90%;
+  }
+}
+@media (max-width: 800px) {
+  .hero h1 {
+    font-size: 50px;
+  }
+  .hero p {
+    max-width: 350px;
+  }
+}
+@media (max-width: 600px) {
+  .hero {
+    height: 700px;
+  }
+  .hero h1 {
+    font-size: 40px;
+  }
+  .hero p {
+    max-width: 350px;
+  }
+}
+@media (max-width: 500px) {
+  .hero {
+    padding: 70px;
+    height: 600px;
+  }
+  .hero h1 {
+    font-size: 30px;
+  }
+  .hero p {
+    font-size: 16px;
+  }
+  .hero__input {
+    display: none;
+  }
+}
+@media (max-width: 450px) {
+  .hero {
+    padding: 50px;
+    height: 500px;
+  }
+  .hero h1 {
+    font-size: 28px;
+    max-width: 1000px;
+  }
+  .hero p {
+    font-size: 16px;
+  }
+}
+@media (max-width: 350px) {
+  .hero {
+    padding: 30px;
+    height: 400px;
+  }
+  .hero h1 {
+    font-size: 28px;
+  }
+  .hero p {
+    font-size: 16px;
+  }
+}
+@media (max-width: 300px) {
+  .hero {
+    padding: 20px;
+    height: 400px;
+  }
+  .hero h1 {
+    font-size: 24px;
+  }
+  .hero p {
+    font-size: 16px;
+  }
+}
+/*# sourceMappingURL=Hero.css.map */
